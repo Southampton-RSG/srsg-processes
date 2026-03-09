@@ -4,5 +4,13 @@
 format: jb-book
 root: intro
 chapters:
-- file: section_1
-- file: section_2
+- file: scope
+- file: normative_references
+- file: terms_and_definitions
+- file: context_of_the_organisation
+- file: leadership
+- file: planning
+- file: support
+- file: operation
+- file: performance_evaluation
+- file: improvement
