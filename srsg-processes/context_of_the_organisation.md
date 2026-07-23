@@ -1,3 +1,3 @@
-# Context of the Organisitation
+# Context of the Organisation
 
 Text here.
