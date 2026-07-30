@@ -1,5 +1,7 @@
 # Terms of Reference for the SRSG Process Working Group
 
+[Back to Context of the Organisation](../context_of_the_organisation.md)
+
 ## Purpose
 
 The purpose of the SRSG Process Working Group (PWG) is to set the Strategic Direction for the development and execution of Processes within the Southampton Research Software Group (SRSG).
@@ -47,6 +49,18 @@ The responsibilities of the Process CCB include:
 - Assessing Change Requests (CRs). In principle, anybody can raise a CR on the QMS. The CRs will be documented in the form of GitHub Issues. Where necessary the Process CCB shall obtain clarifications from the person who raised the CR.
 - Prioritising and sanctioning the CRs for work. Effectively acting as a Product Owner, the Process CCB shall organise the CRs into a ranked list and identify the next CRs to be progressed.
 - Reviewing and approving the actual changes made. That is, reviewing and merging Github Pull Requests related to a CR.
+
+The main communication lines and responsibility chain of the Process Working Group are as follows, to further highlight the position and role of the CCB.
+
+```mermaid
+block-beta
+  columns 3
+  dir("SRSG Directors"):3
+  space blockArrowId1<[" "]>(y) space
+  pwg("Process Working Group"):3
+  blockArrowId2<[" "]>(y) space blockArrowId3<[" "]>(down) 
+  ccb("Change Control Board") blockArrowId4<[" "]>(x) pl("Process Area Lead")
+```
 
 ## GitHub Guidelines for CRs
 
