@@ -62,11 +62,15 @@ block-beta
   ccb("Change Control Board") blockArrowId4<[" "]>(x) pl("Process Area Lead")
 ```
 
+In this diagram, the "Process Area Lead" refers to the person of persons designated to lead the development of a specific area of the process documentation, and act as the reviewer(s) of any changes made by the CCB to documents covering their given area(s).
+
 ## GitHub Guidelines for CRs
 
-- Each CR should take the form of a GitHub Issue and at least one Git branch.  The branch name should start with the number of the issue in order for the two to be associated with each other.
+Any modifications to the GitHub repository containing these process documents shall follow the guidelines set out below, in order to maintain a comprehensive commit history and ensure that any and all modifications to the processes have been agreed upon and reviewed by the relevant people and/or groups.
+
+- Each CR shall take the form of a GitHub Issue and at least one Git branch.  The branch name shall start with the number of the issue in order for the two to be associated with each other.
 - For more complex CRs, the CR may be decomposed into several issues, each of which is accompanied by a matching Git branch to be created from the branch associated to the original CR issue.
-- Issues associated with a CR may be created either by the person to raise the CR or by a member of the CCB.  The associated branch should be created only by a member of the CCB.
-- When a CCB member assesses that a CR-related Git branch is ready to merge into the Process Documents proper, they should create a Git Pull Request (PR).  The PR should be reviewed by (at minimum) one additional member of the CCB and the lead for the associated Process Working Group.
-- No changes should ever be pushed directly to the GitHub Main branch.  All changes should have an associated CR, Issue, Branch and reviewed PR.
-- All Git commits should be atomic, and should have a commit message explaining the change(s).  Each commit does not need to contain a complete change, i.e. it is fine for a CR's branch to consist of multiple commits so long as each commit is sufficiently documented.  Each commit message should start with a `#` followed by the number of the associated CR's associated GitHub issue.
+- Issues associated with a CR may be created either by the person to raise the CR or by a member of the CCB.  The associated branch shall be created only by a member of the CCB.
+- When a CCB member assesses that a CR-related Git branch is ready to merge into the Process Documents proper, they shall create a Git Pull Request (PR).  The PR shall be reviewed by (at minimum) one additional member of the CCB and the lead for the associated Process Working Group.
+- No changes shall ever be pushed directly to the GitHub Main branch.  All changes shall have an associated CR, Issue, Branch and reviewed PR.
+- All Git commits should be atomic, and shall have a commit message explaining the change(s).  Each commit does not need to contain a complete change, i.e. it is fine for a CR's branch to consist of multiple commits so long as each commit is sufficiently documented.  Each commit message should start with a `#` followed by the number of the associated CR's associated GitHub issue.
