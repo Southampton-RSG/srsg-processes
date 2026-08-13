@@ -13,3 +13,5 @@ To make changes follow these steps:
 6. Enter a brief commit message summarizing your update, such as "Update organizational chart with new staff member." If needed, provide additional details in the 'Extended description' box.
 7. Verify that the option **Commit directly to the main branch** is selected.
 8. Click **Commit changes**. Your updates will appear in the handbook within a few minutes.
+
+All proposed and actual changes must follow the [Terms of Reference for the Process Working Group](./srsg-processes/context_of_the_organisation/tor_process_working_group.md).
