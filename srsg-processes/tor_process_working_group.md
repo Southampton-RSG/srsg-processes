@@ -1,6 +1,6 @@
 # Terms of Reference for the SRSG Process Working Group
 
-[Back to Context of the Organisation](../context_of_the_organisation.md)
+[Back to Context of the Organisation](./context_of_the_organisation.md)
 
 ## Purpose
 
@@ -52,7 +52,7 @@ The responsibilities of the Process CCB include:
 
 The main communication lines and responsibility chain of the Process Working Group are as follows, to further highlight the position and role of the CCB.
 
-```mermaid
+```{mermaid}
 block-beta
   columns 3
   dir("SRSG Directors"):3
