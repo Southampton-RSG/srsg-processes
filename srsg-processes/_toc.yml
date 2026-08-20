@@ -11,7 +11,9 @@ chapters:
 - file: leadership
 - file: planning
 - file: support
-- file: operation
+- file: operation/operation.md
+  sections:
+    - file: operation/development-processes/TEC.4_Verification.md
 - file: performance_evaluation
 - file: improvement
 - file: tor_process_working_group
