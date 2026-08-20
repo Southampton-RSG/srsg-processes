@@ -13,7 +13,8 @@ chapters:
 - file: support
 - file: operation/operation.md
   sections:
-    - file: operation/development-processes/TEC.4_Verification.md
+    - file: operation/development-processes/TEC.4_Verification/verification.md
+    - file: operation/development-processes/TEC.4_Verification/information-methods-classes-levels.md
 - file: performance_evaluation
 - file: improvement
 - file: tor_process_working_group
