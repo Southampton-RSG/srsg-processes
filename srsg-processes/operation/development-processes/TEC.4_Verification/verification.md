@@ -51,7 +51,7 @@ In general, as requirements are identified, defined, and agreed throughout the p
    1. Select suitable verification procedures, where a procedure includes a verification method and potentially a set of steps to undertake the procedure if such detail is needed. For typical RSE projects, see [Information: Verification Methods, Classes and Levels](information-methods-classes-levels.md) for example methods.  
    2. Discuss with stakeholders and take into account any additional verification procedures and those they are required to be involved in, how they need to be involved, and any client verification platforms that may need to be used, e.g. for compliance with regulations or other customer protocols.  
    3. Identify with stakeholders any independent verification procedures required to be undertaken by 3rd parties, e.g. the Cyber Security team for security reviews, or Research Innovation Services for legal or licensing.  
-2. **Identify where project-level outputs need to be reviewed and how this will happen**. For design for example, there may be an architecture, components, technical choices, or other discrete design elements that may require verification.
+2. **Identify where project-level outputs need to be reviewed and how this will happen**. For design for example, there may be architecture, components, technical choices, or other discrete design elements that may require verification.
 
 Once identified:
 
