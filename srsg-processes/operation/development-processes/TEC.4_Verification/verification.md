@@ -89,7 +89,7 @@ Verification activities are conducted in accordance with the Verification Plan, 
 Ensure that results from system tests are recorded as Verification Records as specified in the Verification Plan, e.g.
 
 - For automated systems, such as those provided by Continuous Integration infrastructures such as GitHub Actions, ensure the logs are not deleted and retained for a minimum of one year after the project is completed.  
-- For other testing runs (e.g. for manual testing, or for those on Iridis or some other infrastructure), ensure results are recorded for larger test suite runs, linked to in a pull request.
+- For other testing runs (e.g. for manual testing), ensure results are recorded for larger test suite runs, linked to in a pull request.
 
 Main findings and actions arising from code review should be recorded, e.g.
 
