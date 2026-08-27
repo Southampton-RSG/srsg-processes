@@ -6,7 +6,7 @@ This supplementary document lists non-exhaustive examples of different methods, 
 
 ## Methods of Verification
 
-All project outputs need to be verified in some way, irrespective of the type of output. At a high level, these methods typically include:
+All project outputs must be verified in some way, irrespective of the type of output. At a high level, these methods typically include:
 
 - **Testing** conducted by project team members either manually or using automation, e.g. manual software testing against a test plan, running a suite of automated unit or functional tests, integration testing.  
 - **Review** of any project output, e.g. code or document review.  
