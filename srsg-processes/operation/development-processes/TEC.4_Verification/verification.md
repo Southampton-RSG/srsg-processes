@@ -102,7 +102,7 @@ Any proposed changes to verification procedures and plans are recorded and discu
 
 In typical development when tests fail, the developer will directly fix the issue and retest until successfully verified. In the cases where the issue is still live and successful retesting hasn't occurred, the failure is recorded and discussed in client meetings (e.g. note that a particular feature doesn't yet work as required during a sprint demo or review). For higher integrity projects where a test fails on a more formal "Run-For-Record" system test scenario, the test is recorded and either a "Quick Fix" is made or a Workaround (WAR) is documented to bypass the issue whilst a proper fix is developed.
 
-When a project completes any verification records not already shared are handed over to the customers if they want them (e.g. as slides in a wrap-up meeting, or as links to records or documents).
+When a project completes, any verification records not already shared are handed over to the customers if they want them (e.g. as slides in a wrap-up meeting, or as links to records or documents).
 
 ### BP4: Review Effectiveness of Verification
 
