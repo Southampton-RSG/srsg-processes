@@ -123,7 +123,7 @@ With the clients:
 During review, evaluate whether the effort for verification activities is commensurate with the project. Assess this regularly during Sprint Retrospectives and Reviews, accounting for:
 
 - **Overall**, an estimate of the effort taken to conduct verification activities.  
-- From within the development team: the number and severity of issues discovered by the verification activities, plus the impact or potential impact of any infractions  
+- **From within the development team:** the number and severity of issues discovered by the verification activities, plus the impact or potential impact of any infractions  
 - From the customer, user base, and the development team: the number and severity of issues encountered through some level of "use" of the project outputs, the impact of any infractions
 
 #### Identifying and Recording Non-conformities
