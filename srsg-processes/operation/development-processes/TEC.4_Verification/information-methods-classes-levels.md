@@ -14,7 +14,7 @@ All project outputs must be verified in some way, irrespective of the type of ou
 - **Product demonstrations** conducted by either internal team members or customers, e.g. from internal team members to customers, or customers to a potential community of users.  
 - **Analysis** using evaluation and reasoning to demonstrate correctness, e.g. static code analysis.
 
-Depending on the scale, type and complexity of the project, only some of these may be used. For example, for a small scale single developer project code review by a third party may not be warranted or tractable, or for an investigative study, testing or measurement will not be applicable.
+Depending on the scale, type and complexity of the project, only some of these may be used. For example, for a small scale single developer project code, review by a third party may not be warranted or tractable.
 
 ## Verification Classes
 
