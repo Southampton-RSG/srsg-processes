@@ -112,7 +112,7 @@ The goal of review is to determine the effectiveness of the verification procedu
 
 Within the development team, determine:
 
-1. **Within the context of the project, what should change for future sprints.** Following a sprint (e.g. within the Sprint Retrospective meeting), evaluate the verification activity for the sprint. Were the verification procedures sufficient? What needs to change? If any underlying client verification platforms’ changes are identified (i.e. with the tooling or infrastructure used for verification), plan for how this change will be addressed.  
+1. **Within the context of the project, what should change for future sprints.** Following a sprint (e.g. within the Sprint Retrospective meeting), evaluate the verification activity for the sprint. Were the verification procedures sufficient? What needs to change? If any underlying client verification platform changes are identified (i.e. with the tooling or infrastructure used for verification), plan for how this change will be addressed.  
 2. **How the outcomes of the verification activity will or should affect future projects.** During the project lessons learned meeting, consider and record opportunities or threats for future projects given the outcomes of the verification activity.
 
 With the clients:
