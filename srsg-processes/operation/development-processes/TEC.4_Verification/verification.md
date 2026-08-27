@@ -23,7 +23,7 @@ This document defines the RSG process for verifying that project outputs satisfy
 
 ## Outcomes
 
-Overall, the intended outcome of this process is for the SRSG to have a repeatable and proportionate approach to ensure our project outputs demonstrably achieve their requirements throughout a project lifecycle.
+Overall, the intended outcome of this process is for the SRSG to have a repeatable and proportionate approach to ensure that all project outputs demonstrably achieve their requirements throughout a project lifecycle.
 
 Specifically, this process has the following output documents that are created and managed according to PRJ.3 Change Management: Verification Procedures, Verification Plan, Verification Records, Project Non-conformities. It also contributes outputs to the Sprint Review/Sprint Retrospective meeting documents, and the project-end Lessons Learned Report document.
 
@@ -32,7 +32,7 @@ Specifically, this process has the following output documents that are created a
 The RSG is committed to ensuring that all project requirements have been verified using defined methods. We shall:
 
 - **Identify and plan for verification methods** as required by the project, eliciting any supplementary verification methods required by stakeholders  
-- **Follow an iterative approach to verification,** where verification activities are carried out continuously throughout the cycle rather than as a single final stage  
+- **Follow an iterative approach to verification,** where verification activities are carried out continuously throughout the development cycle rather than as a single final stage  
 - **Seek clarification or amendments from stakeholders on requirements** where they cannot be measurably verified (undertaken as part of TEC.11 BP1)  
 - **Maintain transparency** of verification plans and verification outputs with stakeholders  
 - **Involve stakeholders in verification** activities or analysis of verification outputs where their domain expertise is required to complete verification
@@ -117,7 +117,7 @@ Within the development team, determine:
 
 With the clients:
 
-1. **Assess and agree on the outcomes of verification activities** within the Sprint Review meeting.  
+1. **Assess the outcomes of verification activities** within the Sprint Review meeting, and agree on any remedial actions that may be required.
 2. **Identify any client verification platform changes early**, in the cases where a client's technologies, infrastructure, or tooling is required to conduct a verification procedure.
 
 During review, evaluate whether the effort for verification activities is commensurate with the project. Assess this regularly during Sprint Retrospectives and Reviews, accounting for:
