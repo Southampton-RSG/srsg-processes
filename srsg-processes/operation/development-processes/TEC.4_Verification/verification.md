@@ -74,7 +74,7 @@ Once captured, the project verification procedures are defined within a project'
 - **A schedule for when the procedures will be used**, throughout the project and software lifecycle.  
 - **The extent to which the results of conducting a verification procedure need to be recorded as Verification Records**, how and where they should be recorded, and how long the records need to be held.  
   - For many typical development-level activities (such as recording results of individual test runs for every test case) this typically won't be required for every run, although successful verification should be noted as a requirement is completed (e.g. within a pull request). Results are discussed as needed within normal client interactions.  
-  - Verification Records should be retrievable for larger-scale test runs conducted on specialist infrastructure such as Iridis, or in cases where "Run-For-Record" is needed to satisfy any compliance, certification, or final delivery requirements.   
+  - Verification Records should be retrievable for larger-scale test runs conducted on specialist infrastructure such as high performance computing resources, or in cases where "Run-For-Record" is needed to satisfy any compliance, certification, or final delivery requirements.   
   - Additionally, in identified cases of security, legal, regulatory or other situations where this needs to be demonstrated or available for audit, recording should be done in accordance with acknowledged procedures in those cases.  
   - By default, such records need to remain retrievable for at least one year after the project ends.
 
