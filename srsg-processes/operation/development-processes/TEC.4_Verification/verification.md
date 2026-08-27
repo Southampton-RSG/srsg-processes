@@ -137,7 +137,7 @@ Overall, the review process should also identify, assess, and record any nonconf
    3. *Opportunity for Improvement:* an area where the system could become vulnerable or where efficiency could be enhanced.  
 3. **How it was or will be resolved**, including any Quick Fixes or Workarounds that were applied to overcome the non-conformance in the short term.  
 4. **Any issues which are still outstanding**, and what needs to be done and by whom.  
-5. **Recommendations for improvement** based on what happened here, both for any future phases of the project or more generally for other future projects.
+5. **Recommendations for improvement,** both for any future phases of the project or more generally for other future projects.
 
 Some aspects to consider when forming recommendations:
 
