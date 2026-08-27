@@ -118,7 +118,7 @@ Within the development team, determine:
 With the clients:
 
 1. **Assess and agree on the outcomes of verification activities** within the Sprint Review meeting.  
-2. **Identify any client verification platform changes early**, in the cases where a client's technologies, infrastructure, or tooling is required to conduct a verification procedure.
+2. **Identify any client verification platform changes early**, in cases where a client's technology, infrastructure, or tooling is required to conduct a verification procedure.
 
 During review, evaluate whether the effort for verification activities is commensurate with the project. Assess this regularly during Sprint Retrospectives and Reviews, accounting for:
 
