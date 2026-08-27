@@ -23,7 +23,7 @@ This document defines the RSG process for verifying that project outputs satisfy
 
 ## Outcomes
 
-Overall, the intended outcome of this process is that the SRSG has a repeatable and proportionate approach to ensure our project outputs demonstrably achieve their requirements throughout a project lifecycle.
+Overall, the intended outcome of this process is for the SRSG to have a repeatable and proportionate approach to ensure our project outputs demonstrably achieve their requirements throughout a project lifecycle.
 
 Specifically, this process has the following output documents that are created and managed according to PRJ.3 Change Management: Verification Procedures, Verification Plan, Verification Records, Project Non-conformities. It also contributes outputs to the Sprint Review/Sprint Retrospective meeting documents, and the project-end Lessons Learned Report document.
 
