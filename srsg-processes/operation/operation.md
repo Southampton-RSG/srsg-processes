@@ -1,6 +1,6 @@
 # Operation
 
-This section defines the processes that govern how the SRSG operates, plan, manage and control the activities needed to deliver its products and services.
+This section defines the processes that govern how the {{ group_short_name }} operates, plan, manage and control the activities needed to deliver its products and services.
 
 ## Development Processes
 

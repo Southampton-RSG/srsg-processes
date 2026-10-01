@@ -13,7 +13,7 @@ This process provides a consistent approach to verifying that project outputs me
 
 ## Purpose
 
-This document defines the RSG process for verifying that project outputs satisfy that project's defined requirements, to ensure that:
+This document defines the {{ group_short_name }} process for verifying that project outputs satisfy that project's defined requirements, to ensure that:
 
 - Stakeholder verification procedures relevant to the project are understood, captured, and planned for  
 - Verification methods selected for a project are sufficient to verify requirements  
@@ -23,13 +23,13 @@ This document defines the RSG process for verifying that project outputs satisfy
 
 ## Outcomes
 
-Overall, the intended outcome of this process is for the SRSG to have a repeatable and proportionate approach to ensure that all project outputs demonstrably achieve their requirements throughout a project lifecycle.
+Overall, the intended outcome of this process is for the {{ group_short_name }} to have a repeatable and proportionate approach to ensure that all our project outputs demonstrably achieve their requirements throughout a project lifecycle.
 
 Specifically, this process consists of the following output documents that are created and managed according to PRJ.3 Change Management: Verification Procedures, Verification Plan, Verification Records, Project Non-conformities. It also contributes outputs to the Sprint Review/Sprint Retrospective meeting documents, and the project-end Lessons Learned Report document.
 
 ## Policy
 
-The RSG is committed to ensuring that all project requirements have been verified using defined methods. We shall:
+The {{ group_short_name }} is committed to ensuring that all project requirements have been verified using defined methods. We shall:
 
 - **Identify and plan for verification methods** as required by the project, eliciting any supplementary verification methods required by stakeholders  
 - **Follow an iterative approach to verification,** where verification activities are carried out continuously throughout the development cycle rather than as a single final stage  
@@ -43,7 +43,7 @@ Requirements are considered fully verified when all planned verification activit
 
 ### BP1: Establish Verification Procedures
 
-Any project shall ensure that requirements, both functional and non-functional, are verified successfully as they are completed, and iteratively as needed prior to final delivery. There shall be a clear way of demonstrating that each requirement has been sufficiently verified using at least one verification method, e.g. testing, peer review, or demonstration.
+Any project shall ensure that requirements, both functional and non-functional, are verified successfully as they are completed, and iteratively as needed prior to final delivery. There shall be a clear way of demonstrating that each requirement has been sufficiently verified using at least one verification method, e.g. testing, peer review, or demonstration.
 
 In general, as requirements are identified, defined, and agreed throughout the project:
 
@@ -55,7 +55,7 @@ In general, as requirements are identified, defined, and agreed throughout the p
 
 Once identified:
 
-3. **Define the verification procedures that will be used within a project Verification Procedures document**, with each procedure including a brief description of the verification method (the specific technique or technology used to verify a requirement), and the criteria that determine whether or not verification was successful. Where the methods are not already common RSG practice, include any environment set-up, tools, and step-by-step instructions required to accomplish that verification.  
+3. **Define the verification procedures that will be used within a project Verification Procedures document**, with each procedure including a brief description of the verification method (the specific technique or technology used to verify a requirement), and the criteria that determine whether or not verification was successful. Where the methods are not already common {{ group_short_name }} practice, include any environment set-up, tools, and step-by-step instructions required to accomplish that verification.  
 4. **Refine the verification procedures throughout the project as needed**, as technical, operational, and other details become clearer and needs change.
 
 As a general principle, automated verification should be used wherever practical and cost-effective to do so, particularly for repeatable verification activities such as unit testing, regression testing, static analysis and continuous integration checks. Manual verification remains important where human judgement is required, such as software usability assessment, customer demonstrations, data review, exploratory testing, etc. The balance between automated and manual verification will vary depending on the nature of the project. For software development projects, automated verification is often predominant; for data-focused project(s) that make use of third-party software, manual verification may form a larger part of the overall verification approach. 
@@ -88,13 +88,13 @@ Verification activities are conducted in accordance with the Verification Plan, 
 
 Ensure that results from system tests are recorded as Verification Records as specified in the Verification Plan, e.g.
 
-- For automated systems, such as those provided by Continuous Integration infrastructures such as GitHub Actions, ensure the logs are not deleted and retained for a minimum of one year after the project is completed.  
+- For automated systems, such as those provided by Continuous Integration infrastructures such as {{ git_platform }} Actions, ensure the logs are not deleted and are retained for a minimum of one year after the project is completed.  
 - For other testing runs (e.g. for manual testing), ensure results are recorded for larger test suite runs, linked to in a pull request.
 
 Main findings and actions arising from code review should be recorded, e.g.
 
-- For GitHub pull requests, ensure PRs contain highlights of the outcomes from review that are traceable to the commits made to address the issues found \[see PRJ.3\]  
-- Whether for code or not, for other forms of review that aren't supported by infrastructure directly (e.g. an in-person review), record any non-conformities and actions ideally as GitHub issues on the code repository in question, or for non-code outputs, a review meeting document in Google Drive \[see PRJ.3\]
+- For {{ git_platform }} pull requests, ensure PRs contain highlights of the outcomes from review that are traceable to the commits made to address the issues found \[see PRJ.3\]  
+- Whether for code or not, for other forms of review that aren't supported by infrastructure directly (e.g. an in-person review), record any non-conformities and actions ideally as {{ git_platform }} issues on the code repository in question, or for non-code outputs, a review meeting document in {{ cloud_storage }} \[see PRJ.3\]
 
 Where they are not otherwise recorded, the results of verification activities as discussed within sprints and within sprint reviews or retrospectives should be captured.
 

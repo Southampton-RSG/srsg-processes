@@ -34,3 +34,19 @@ html:
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
+  config:
+    myst_enable_extensions:
+      - substitution
+
+substitutions:
+  cloud_storage: "Google Drive"
+  git_platform: "GitHub"
+  group_name: "Southampton Research Software Group"
+  group_short_name: "SRSG"
+  group_url: "https://www.southampton.ac.uk/research/groups/southampton-research-software-group-srsg"
+  school_name: "School of Electronics and Computer Science"
+  school_short_name: "ECS"
+  school_url: "https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-electronics-and-computer-science"
+  university_name: "University of Southampton"
+  university_short_name: "UoS"
+  university_url: "https://www.southampton.ac.uk/"
