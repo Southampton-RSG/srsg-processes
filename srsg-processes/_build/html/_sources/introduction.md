@@ -1,10 +1,10 @@
-# Quality Management System (QMS) for the Southampton Research Software Group (SRSG)
+# Quality Management System (QMS) for the {{ group_name }} ({{ group_short_name }})
 
-The [Southampton Research Software Group (SRSG)](https://www.southampton.ac.uk/research/groups/southampton-research-software-group-srsg) is part of the [School of Electronics and Computer Science (ECS)](https://www.southampton.ac.uk/about/faculties-schools-departments/school-of-electronics-and-computer-science) at the [University of Southampton](https://www.southampton.ac.uk/).
+The {{ '[{name} ({short})]({url})'.format(name=group_name, short=group_short_name, url=group_url) }} is part of the {{ '[{name} ({short})]({url})'.format(name=school_name, short=school_short_name, url=school_url) }} at the {{ '[{name} ({short})]({url})'.format(name=university_name, short=university_short_name, url=university_url) }}.
 
-The [Southampton Research Software Group (SRSG)](https://www.southampton.ac.uk/research/groups/southampton-research-software-group-srsg) is also a partner in the [Software Sustainability Institute](https://www.software.ac.uk/).
+The {{ '[{name} ({short})]({url})'.format(name=group_name, short=group_short_name, url=group_url) }} is also a partner in the [Software Sustainability Institute](https://www.software.ac.uk/).
 
-The [Quality Management System (QMS)](https://www.iso.org/quality-management/) for the [Southampton Research Software Group (SRSG)](https://www.southampton.ac.uk/research/groups/southampton-research-software-group-srsg) supports the group's core objective of ["Better Software, Better Research"](https://www.software.ac.uk/publication/better-software-better-research).
+The [Quality Management System (QMS)](https://www.iso.org/quality-management/) for the {{ '[{name} ({short})]({url})'.format(name=group_name, short=group_short_name, url=group_url) }} supports the group's core objective of ["Better Software, Better Research"](https://www.software.ac.uk/publication/better-software-better-research).
 
 ```{tableofcontents}
 ```
