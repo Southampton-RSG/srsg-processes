@@ -1,0 +1,1 @@
+# Determining the Scope of the Quality Management System
