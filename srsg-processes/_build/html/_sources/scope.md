@@ -1,15 +1,15 @@
 # Scope
 
-The overarching aim of the SRSG QMS is to deliver ["Better Software, Better Research"](https://www.software.ac.uk/publication/better-software-better-research).
+The overarching aim of the {{ group_short_name }} QMS is to deliver ["Better Software, Better Research"](https://www.software.ac.uk/publication/better-software-better-research).
 
 To meet this objective the following requirements are defined.
 
-The SRSG *shall*:
+The {{ group_short_name }} *shall*:
 1. Demonstrate the ability to consistently provide products and services that meet customer requirements.
-2. Satisfy all applicable statutory and regulatory requirements, including policies of the University of Southampton.
+2. Satisfy all applicable statutory and regulatory requirements, including policies of the {{ university_name }}.
 3. Enhance customer satisfaction through the effective continuous improvement of the system and the assurance of conformity to requirements.
 
-The SRSG works in 4 broad areas, namely:
+The {{ group_short_name }} works in 4 broad areas, namely:
 1. Research Software Engineering
 2. Training
 3. Community Management

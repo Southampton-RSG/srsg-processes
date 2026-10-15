@@ -542,7 +542,11 @@ window.runMermaid = runMermaid;</script>
 <li class="toctree-l1"><a class="reference internal" href="leadership.html">Leadership</a></li>
 <li class="toctree-l1"><a class="reference internal" href="planning.html">Planning</a></li>
 <li class="toctree-l1"><a class="reference internal" href="support.html">Support</a></li>
-<li class="toctree-l1"><a class="reference internal" href="operation.html">Operation</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="operation/operation.html">Operation</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="operation/development-processes/TEC.4_Verification/verification.html">TEC.4 - Verification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operation/development-processes/TEC.4_Verification/information-methods-classes-levels.html">Appendix: Verification Methods, Classes and Levels</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="performance_evaluation.html">Performance Evaluation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="improvement.html">Improvement</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Terms of Reference for the SRSG Process Working Group</a></li>
@@ -761,7 +765,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="terms-of-reference-for-the-srsg-process-working-group">
+  <section id="terms-of-reference-for-the-srsg-process-working-group">
 <h1>Terms of Reference for the SRSG Process Working Group<a class="headerlink" href="#terms-of-reference-for-the-srsg-process-working-group" title="Link to this heading">#</a></h1>
 <p><a class="reference internal" href="context_of_the_organisation.html"><span class="std std-doc">Back to Context of the Organisation</span></a></p>
 <section id="purpose">
@@ -794,7 +798,7 @@ document.write(`
 <section id="working-method">
 <h2>Working Method<a class="headerlink" href="#working-method" title="Link to this heading">#</a></h2>
 <p>The PWG should meet once a month to discuss the Strategic Direction of process work within the SRSG. A quorum of 3 people, including either the Chair or an SRSG Director, should be present at PWG meetings. The Chair may appoint a Secretary to take notes during the meeting. The PWG may task individuals or groups of people within the SRSG to perform offline tasks (provided that broad approval to do so has been received from the SRSG Directors).</p>
-<p>It is essential that SRSG Processes are owned by the whole of the SRSG. To enable this the PWG shall actively consult with members of the wider SRSG and regularly (nominally every few months) report back to the wider SRSG. This reporting may be done, for example, during the Weekly Meeting or at an All Hands Meetings. The PWG shall make all records of meetings available to all SRSG members (for example, minutes of meetings being made available via Google Documents).</p>
+<p>It is essential that SRSG Processes are owned by the whole of the SRSG. To enable this the PWG shall actively consult with members of the wider SRSG and regularly (nominally every few months) report back to the wider SRSG. This reporting may be done, for example, during the Weekly Meeting or at an All Hands Meetings. The PWG shall make all records of meetings available to all SRSG members (for example, minutes of meetings being made available via Google Drive).</p>
 </section>
 <section id="process-change-control-board-ccb">
 <h2>Process Change Control Board (CCB)<a class="headerlink" href="#process-change-control-board-ccb" title="Link to this heading">#</a></h2>
@@ -804,13 +808,13 @@ document.write(`
 <ul class="simple">
 <li><p>Assessing Change Requests (CRs). In principle, anybody can raise a CR on the QMS. The CRs will be documented in the form of GitHub Issues. Where necessary the Process CCB shall obtain clarifications from the person who raised the CR.</p></li>
 <li><p>Prioritising and sanctioning the CRs for work. Effectively acting as a Product Owner, the Process CCB shall organise the CRs into a ranked list and identify the next CRs to be progressed.</p></li>
-<li><p>Reviewing and approving the actual changes made. That is, reviewing and merging Github Pull Requests related to a CR.</p></li>
+<li><p>Reviewing and approving the actual changes made. That is, reviewing and merging GitHub Pull Requests related to a CR.</p></li>
 </ul>
 <p>The main communication lines and responsibility chain of the Process Working Group are as follows, to further highlight the position and role of the CCB.</p>
 <pre  class="mermaid">
         block-beta
   columns 3
-  dir(&quot;SRSG Directors&quot;):3
+  dir(&quot;{{ group_short_name }} Directors&quot;):3
   space blockArrowId1&lt;[&quot; &quot;]&gt;(y) space
   pwg(&quot;Process Working Group&quot;):3
   blockArrowId2&lt;[&quot; &quot;]&gt;(y) space blockArrowId3&lt;[&quot; &quot;]&gt;(down) 
