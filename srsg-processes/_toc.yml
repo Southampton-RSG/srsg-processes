@@ -2,19 +2,46 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: 00_introduction
+root: 00_introduction/index.md
 chapters:
-- file: 01_scope
-- file: 02_normative_references
-- file: 03_terms_and_definitions
-- file: 04_context_of_the_organisation
-- file: 05_leadership
-- file: 06_planning
-- file: 07_support
-- file: 08_operation/operation.md
+- file: 01_scope/index.md
+- file: 02_normative_references/index.md
+- file: 03_terms_and_definitions/index.md
+- file: 04_context_of_the_organisation/index.md
+  sections:
+    - file: 04_context_of_the_organisation/1_understanding_the_organisation.md
+    - file: 04_context_of_the_organisation/2_understanding_needs_and_expectations.md
+    - file: 04_context_of_the_organisation/3_determining_the_scope.md
+    - file: 04_context_of_the_organisation/4_quality_management_system.md
+- file: 05_leadership/index.md
+  sections:
+    - file: 05_leadership/1_leadership_and_commitment.md
+    - file: 05_leadership/2_customer_focus.md
+    - file: 05_leadership/3_organisational_roles.md
+- file: 06_planning/index.md
+  sections:
+    - file: 06_planning/1_actions_to_address_risks.md
+    - file: 06_planning/2_quality_objectives.md
+    - file: 06_planning/3_planning_changes.md
+- file: 07_support/index.md
+  sections:
+    - file: 07_support/1_resources.md
+    - file: 07_support/2_competence.md
+    - file: 07_support/3_awareness.md
+    - file: 07_support/4_communication.md
+    - file: 07_support/5_documented_information.md
+- file: 08_operation/index.md
   sections:
     - file: 08_operation/development-processes/TEC.4_Verification/verification.md
     - file: 08_operation/development-processes/TEC.4_Verification/information-methods-classes-levels.md
-- file: 09_performance_evaluation
-- file: 10_improvement
-- file: 11_tor_process_working_group
+- file: 09_performance_evaluation/index.md
+  sections:
+    - file: 09_performance_evaluation/1_monitoring.md
+    - file: 09_performance_evaluation/2_internal_audit.md
+    - file: 09_performance_evaluation/3_management_review.md
+- file: 10_improvement/index.md
+  sections:
+    - file: 10_improvement/1_general.md
+    - file: 10_improvement/2_nonconformity.md
+    - file: 10_improvement/3_continual_improvement.md
+- file: 11_tor_process_working_group/index.md
