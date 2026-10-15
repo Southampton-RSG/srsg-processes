@@ -1,7 +1,17 @@
 # srsg-processes
 Please note that this document is a work in progress.
 
-## How to Edit
+## How to Build the SRSG Processes Jupyter Book Locally
+
+1. Open a terminal and clone the repository `git clone git@github.com:Southampton-RSG/srsg-processes.git`
+2. Change into the srsg-processes directory `cd srsg-processes`
+3. Create a virtual environment `python -m venv venv`, activate it `source venv/bin/activate` (`source venv/Scripts/activate` for Windows) and install the requirements into it `pip install -r requirements.txt`
+4. Run the command `jupyter-book build srsg-processes/` this will create the html files in the _build subdirectory.
+5. Open the html file srsg-processes/_build/html/index.html using whichever method you would usually use to open html files e.g. VSCode Live Server 
+
+For more information about Jupyter Book, the 'get started', 'author content' and 'build and publish' sections of the documentation are very helpful: [https://jupyterbook.org/stable](https://jupyterbook.org/stable)
+
+## How to Edit using the GitHub Interface
 
 To make changes follow these steps:
 
