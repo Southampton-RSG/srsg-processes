@@ -1,4 +1,4 @@
-# Scope
+# 1: Scope
 
 The overarching aim of the {{ group_short_name }} QMS is to deliver ["Better Software, Better Research"](https://www.software.ac.uk/publication/better-software-better-research).
 
