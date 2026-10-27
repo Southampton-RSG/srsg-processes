@@ -1,1 +1,1 @@
-# Quality Objectives and Planning to Achieve them
+# 6.2: Quality Objectives and Planning to Achieve them
