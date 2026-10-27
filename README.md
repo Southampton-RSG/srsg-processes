@@ -6,22 +6,25 @@ Please note that this document is a work in progress.
 1. Open a terminal and clone the repository `git clone git@github.com:Southampton-RSG/srsg-processes.git`
 2. Change into the srsg-processes directory `cd srsg-processes`
 3. Create a virtual environment `python -m venv venv`, activate it `source venv/bin/activate` (`source venv/Scripts/activate` for Windows) and install the requirements into it `pip install -r requirements.txt`
-4. Run the command `jupyter-book build srsg-processes/` this will create the html files in the _build subdirectory.
-5. Open the html file srsg-processes/_build/html/index.html using whichever method you would usually use to open html files e.g. VSCode Live Server 
+4. Run the command `jupyter-book build srsg-processes/` this will create the html files in the `_build` subdirectory.
+5. Open the html file `srsg-processes/_build/html/index.html` using whichever method you would usually use to open html files e.g. VSCode Live Server 
 
 For more information about Jupyter Book, the 'get started', 'author content' and 'build and publish' sections of the documentation are very helpful: [https://jupyterbook.org/stable](https://jupyterbook.org/stable)
 
-## How to Edit using the GitHub Interface
+## How to Edit
 
 To make changes follow these steps:
 
-1. Navigate to the `srsg-processes` folder.
-2. Open the specific section you want to edit, such as `section_1.md`.
-3. Click the pencil icon in the upper-right corner (hovering over it will display "Edit this file").
-4. Modify the content as needed, ensuring you use proper Markdown formatting. For a Markdown guide, refer to [Markdown Guide](https://www.markdownguide.org/).
-5. Click on **Commit changes**.
-6. Enter a brief commit message summarizing your update, such as "Update organizational chart with new staff member." If needed, provide additional details in the 'Extended description' box.
-7. Verify that the option **Commit directly to the main branch** is selected.
-8. Click **Commit changes**. Your updates will appear in the handbook within a few minutes.
+1. Download this repository to your local machine with `git clone https://github.com/Southampton-RSG/srsg-processes.git`.
+2. Create a new git branch to host your proposed changes with `git branch [new branch name]`.  The name of the new branch must start with the number of the ticket that the branch intends to address, e,g, `git branch 00-fix-something`.  If no ticket exists for the change you intend to make, create one.
+3. Locally switch to the new branch with `git checkout [new branch name]`.
+4. Navigate to the `srsg-processes` folder.
+5. Open the specific section you want to edit, such as `section_1.md`.
+6. Modify the content as needed, ensuring you use proper Markdown formatting. For a Markdown guide, refer to [Markdown Guide](https://www.markdownguide.org/).
+7. Add the changes to your in-progress git commit with `git add [path to edited file(s)]`.
+8. Commit the change(s) with `git commit -m '\[some commit message\]'.  The commit message must be a brief message summarizing your update which begins with the associated ticket number, such as "#00 Update organizational chart with new staff member."
+9. Verify that the option **Commit directly to the main branch** is selected.
+10. Push your commit to the online repository with `git push --set-upstream origin [new branch name]`.
+11. Notify a member of the Change Control Board (CCB) who will review your proposed change and accept it if appropriate.
 
-All proposed and actual changes must follow the [Terms of Reference for the Process Working Group](./srsg-processes/context_of_the_organisation/tor_process_working_group.md).
+All proposed and actual changes must follow the [Terms of Reference for the Process Working Group](./srsg-processes/tor_process_working_group.md).
